@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/cloudflare/ebpf_exporter/config"
-	"github.com/cloudflare/ebpf_exporter/decoder"
+	"github.com/b-ripper/ebpf_exporter/config"
+	"github.com/b-ripper/ebpf_exporter/decoder"
 	"github.com/iovisor/gobpf/bcc"
 	"github.com/prometheus/client_golang/prometheus"
 )

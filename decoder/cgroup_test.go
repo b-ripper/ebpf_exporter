@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/cloudflare/ebpf_exporter/config"
+	"github.com/b-ripper/ebpf_exporter/config"
 )
 
 func TestCgroupDecoder(t *testing.T) {

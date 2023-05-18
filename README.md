@@ -46,13 +46,13 @@ to remove this nuisance, your contribution will be most welcome.
 To build a binary from latest sources:
 
 ```
-$ go get -u -v github.com/cloudflare/ebpf_exporter/...
+$ go get -u -v github.com/b-ripper/ebpf_exporter/...
 ```
 
 To run with [`bio`](examples/bio.yaml) config (you need `root` privileges):
 
 ```
-$ ~/go/bin/ebpf_exporter --config.file=src/github.com/cloudflare/ebpf_exporter/examples/bio.yaml
+$ ~/go/bin/ebpf_exporter --config.file=src/github.com/b-ripper/ebpf_exporter/examples/bio.yaml
 ```
 
 If you pass `--debug`, you can see raw tables at `/tables` endpoint.

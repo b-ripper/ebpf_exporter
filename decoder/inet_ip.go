@@ -3,7 +3,7 @@ package decoder
 import (
 	"net"
 
-	"github.com/cloudflare/ebpf_exporter/config"
+	"github.com/b-ripper/ebpf_exporter/config"
 )
 
 // InetIP is a decoder that transforms an ip byte representation into a string
